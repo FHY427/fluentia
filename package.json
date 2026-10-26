@@ -1,0 +1,14 @@
+{
+  "name": "fluentia-english-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fluentia — an immersive AI English speaking studio with bring-your-own-model API.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

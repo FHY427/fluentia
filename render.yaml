@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: fluentia
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: SITE_USER
+        value: Joyee
+      - key: SITE_PASSWORD
+        sync: false
+      - key: ALLOW_PRIVATE_ENDPOINTS
+        value: "0"
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "60"
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,35 @@
+{
+  "name": "Fluentia · 沉浸式英语对话练习室",
+  "short_name": "Fluentia",
+  "description": "全英文 AI 英语口语练习室：真实场景对话、字幕切换、中文求助、课后复盘。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3eee3",
+  "theme_color": "#f3eee3",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
